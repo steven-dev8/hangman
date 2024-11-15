@@ -1,9 +1,19 @@
 import menu, functions, random
 
-fruit_word = ["Abacate", "Acerola", "Banana", "Maca", "Laranja", "Melancia", "Manga", "Uva", "Pera", "Abacaxi", "Caju", "Coco", "Framboesa", "Groselha", "Limao", "Maracuja", "Marmelo", "Melao", "Kiwi", "Pessego", "Ameixa", "Cabeludinha", "Damasco", "Figo", "Jabuticaba", "Jaca", "Pitangas", "Tangerina", "Tamarindo", "Fruta-do-conde", "Acai", "Cranberry", "Physalis", "Tamarillo", "Pera-dagua", "Pinha", "Ameixa-preta", "Melancia-amarela", "Fruta-pao", "Murici", "Pequi", "Bacuri", "Guarana", "Bergamota"]
+fruit_word = ['abacate', 'acerola', 'banana', 'maca', 'laranja', 'melancia', 'manga', 'uva', 'pera', 'abacaxi', 
+ 'caju', 'coco', 'framboesa', 'groselha', 'limao', 'maracuja', 'marmelo', 'melao', 'kiwi', 'pessego', 
+ 'ameixa', 'cabeludinha', 'damasco', 'figo', 'jabuticaba', 'jaca', 'pitangas', 'tangerina', 'tamarindo', 
+ 'fruta-do-conde', 'acai', 'cranberry', 'physalis', 'tamarillo', 'pera-dagua', 'pinha', 'ameixa-preta', 
+ 'melancia-amarela', 'fruta-pao', 'murici', 'pequi', 'bacuri', 'guarana', 'bergamota']
 
-ti_word = ["Hardware", "Software", "Sistema operacional", "Rede", "Servidor", "Banco de dados", "Firewall", "Antivírus", "Cloud computing", "Virtualização", "API", "Algoritmo", "Programação", "Desenvolvimento", "Frontend", "Backend", "Fullstack", "DevOps", "Inteligência artificial", "Machine learning", "Big data", "Data science", "DevSecOps", "Containerização", "Microserviços", "CI/CD", "Linux", "Windows", "macOS", "Android", "iOS", "Internet das coisas", "Blockchain", "Cibersegurança", "UX/UI", "IoT", "Framework", "Biblioteca", "Repositório", "Versionamento", "Git", "HTML", "CSS", "JavaScript", "Python", "Java", "C++", "SQL", "NoSQL", "Scripting"]
 
+ti_word = ['hardware', 'software', 'sistema operacional', 'rede', 'servidor', 'banco de dados', 'firewall', 
+ 'antivírus', 'cloud computing', 'virtualização', 'api', 'algoritmo', 'programação', 'desenvolvimento', 
+ 'frontend', 'backend', 'fullstack', 'devops', 'inteligência artificial', 'machine learning', 'big data', 
+ 'data science', 'devsecops', 'containerização', 'microserviços', 'ci/cd', 'linux', 'windows', 'macos', 
+ 'android', 'ios', 'internet das coisas', 'blockchain', 'cibersegurança', 'ux/ui', 'iot', 'framework', 
+ 'biblioteca', 'repositório', 'versionamento', 'git', 'html', 'css', 'javascript', 'python', 'java', 
+ 'c++', 'sql', 'nosql', 'scripting']
 
 select = menu.select()
 
